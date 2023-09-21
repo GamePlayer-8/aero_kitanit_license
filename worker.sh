@@ -1,9 +1,6 @@
 #!/bin/sh
 
-cp /etc/ssl/certs/ca-certificates.crt /
-
-apk add --no-cache markdown > /dev/null
-cd /source
+rm -f .gitignore
 
 echo '<!DOCTYPE html>' > index.html
 echo '<html lang="en-US">' >> index.html
@@ -16,5 +13,3 @@ echo '</div>' >> index.html
 echo '</body>' >> index.html
 echo '</html>' >> index.html
 
-mkdir -v /runner/page/
-cp -rv /source/* /runner/page/
