@@ -19,5 +19,3 @@ The license is being provided under [LICENSE.md](LICENSE.md).
 Akini is an open source project.
 Contributions are welcome.
 
-<hr/>
-

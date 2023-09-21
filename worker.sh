@@ -13,3 +13,4 @@ echo '</div>' >> index.html
 echo '</body>' >> index.html
 echo '</html>' >> index.html
 
+cp LICENSE.md LICENSE.txt
